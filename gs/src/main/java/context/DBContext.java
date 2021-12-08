@@ -7,9 +7,9 @@ import java.sql.Connection;
 public class DBContext {
 	public Connection getConnection() throws Exception {
 		Class.forName ("com.mysql.jdbc.Driver");
-        String url="jdbc:mysql://localhost:3306/Wish?useSSL=false";
-        String user="root";
-        String password="01122001";
+        String url="jdbc:mysql://localhost:3306/bFz28nfVdy";
+        String user="bFz28nfVdy";
+        String password="jQS9hXjuH7";
         return (Connection) DriverManager.getConnection(url, user, password);
 	} 
 	public static void main(String[] args) 
